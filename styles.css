@@ -1,0 +1,224 @@
+@font-face {
+    font-family: 'Pokemon_Solid';
+    src: url('Pokemon_Solid.ttf') format('truetype');
+    /* Ruta a tu archivo de fuente */
+}
+
+@font-face {
+    font-family: 'Pokemon_Hollow';
+    src: url('Pokemon_Hollow.ttf') format('truetype');
+    /* Ruta a tu archivo de fuente */
+}
+
+
+@font-face {
+    font-family: 'Pokemon_GB';
+    src: url('Pokemon_GB.ttf') format('truetype');
+    /* Ruta a tu archivo de fuente */
+}
+
+body {
+    font-family: 'Pokemon_GB';
+    margin: 0;
+    padding: 0;
+}
+
+input {
+    font-family: 'Pokemon_GB';
+}
+
+button {
+    font-family: 'Pokemon_GB';
+    border-radius: 5px;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.freecodecamp-logo {
+    width: 200px;
+}
+
+h1 {
+    color: white;
+    font-size: 70px;
+    text-shadow:
+        -4px -4px 0 #007bff,
+        4px -4px 0 #007bff,
+        -4px 4px 0 #007bff,
+        4px 4px 0 #007bff,
+        -4px 0px 0 #007bff,
+        4px 0px 0 #007bff,
+        0px -4px 0 #007bff,
+        0px 4px 0 #007bff;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#search-form {
+    margin-bottom: 20px;
+}
+
+#search-input {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+}
+
+#search-button {
+    padding: 8px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.output {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.top-container {
+    margin-bottom: 20px;
+}
+
+.name-and-id {
+    margin-bottom: 10px;
+}
+
+.sprite-container {
+    margin-bottom: 10px;
+}
+
+.bottom-container {
+    overflow-x: auto;
+}
+
+.container {
+    max-width: 1200px;
+    /* Ajusta el ancho máximo del contenedor */
+    margin: 0 auto;
+}
+
+
+table {
+    width: auto;
+    border-collapse: separate;
+    margin-bottom: 20px;
+    /* Espacio adicional entre la tabla y otros elementos */
+    border-spacing: 5px;
+    table-layout: auto;
+}
+
+th,
+td {
+    width: 80px;
+    /* Ancho fijo para todas las celdas */
+    height: 80px;
+    /* Altura fija para todas las celdas */
+    padding: 8px;
+    /* Espaciado interno en las celdas */
+    border: 1px solid #dddddd;
+    text-align: center;
+    font-size: 12px;
+    /* Tamaño de fuente ajustable */
+}
+
+th,
+td {
+    /* Otros estilos existentes */
+    border-radius: 10px;
+    /* Redondea los bordes de las celdas */
+}
+
+/* Si quieres redondear específicamente solo los bordes superiores */
+th:first-child,
+td:first-child {
+    border-top-left-radius: 10px;
+    /* Redondea la esquina superior izquierda */
+}
+
+th:last-child,
+td:last-child {
+    border-top-right-radius: 10px;
+    /* Redondea la esquina superior derecha */
+}
+
+/* Si también quieres redondear los bordes inferiores */
+th:first-child,
+td:first-child {
+    border-bottom-left-radius: 10px;
+    /* Redondea la esquina inferior izquierda */
+}
+
+th:last-child,
+td:last-child {
+    border-bottom-right-radius: 10px;
+    /* Redondea la esquina inferior derecha */
+}
+
+
+/* Estilos para la imagen del sprite del Pokémon */
+.pokemon-sprite {
+    width: 80px;
+    /* Ancho de la imagen del sprite */
+    height: auto;
+    display: block;
+    margin: auto;
+    /* Centra la imagen horizontalmente */
+}
+
+th {
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+.popup-content {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.popup-image {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.pokemon-name {
+    font-size: 24px;
+    color: #333;
+}
+
+.num-intentos {
+    font-size: 18px;
+    color: #666;
+}
+
+.divMargen {
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+
+.resultado {
+    margin-bottom: 200px;
+}
+
+.suggestion {
+    cursor: pointer;
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+}
+
+.suggestion:hover {
+    background-color: #f0f0f0;
+}
